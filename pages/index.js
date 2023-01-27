@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css"
 
 const Home = () => {
   const [items, setItems] = useState([
-    { id: uuidv4(), message: "Do something", done: false },
+    { id: uuidv4(), message: "Read a book", done: false },
   ]);
   const [todoItem, setTodoItem] = useState("");
   const addItem = () => {
